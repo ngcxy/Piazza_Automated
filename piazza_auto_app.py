@@ -135,7 +135,7 @@ def bot():
                     print("Answer posted!")
                 if response_post.status_code == 401:
                     print("Invalid user or user type!")
-    time.sleep(100)
+    time.sleep(10)
 
 
 if __name__ == '__main__':
