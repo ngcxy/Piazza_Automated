@@ -1,0 +1,1518 @@
+[
+    {
+        "detail": {
+            "content": "Dear EE450 Students,We welcome you to the EE450 Piazza board. Here you are free to post any questions regarding the class so that the TAs and prof. Zahid can answer your queries. Remember that this channel is additional to the office hours and emails that you can send to us. In order to make things effective and streamlined, please follow these guidelines:1. On the top of the dashboard, you will find several folders (Ex: hw1, lab1, project, midterm, logistics, etc.). To help your classmates and us to keep track of them, make sure to post your question on the respective folder.2. Make sure to write your questions as clearly as possible. If you need to add some screenshots or other information, please do so.3. Before posting a question, make sure that you have checked previous posts so that we do not have a repeated question that has been already solved.4. We encourage you to respond unanswered questions from your classmates. Learning is a collaborative work and any additional help is appreciated.5. Please DO NOT share any part of your homework, lab or project on Piazza. Any violations will be taken very seriously.If you have any other doubts about the class' logistics feel free to add a question or reply to this announcement.Cheers,Chinmay",
+            "subject": "Welcome to Piazza!"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l7dm6tkudvf3cj",
+        "id_c": 6,
+        "time": "2022-08-28T17:37:32Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Yes you can.Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Can I join 7:30 am class? Even though my session is 6:30pm?",
+            "subject": "Class attendance"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l7e1zd2dw6j50a",
+        "id_c": 7,
+        "time": "2022-08-29T00:59:38Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Great question.For PON, as you can see in the figure, each client has their own link and all the packages are sent to every links. So it is a shared network.For the AON, yes, it has a function similar to switch, I'd call it a router.Please refer to this website for further information:https://community.fs.com/blog/pon-vs-aon-in-ftth-systems.html",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "In chapter 1.2.1, it says that \"In the PON architecture, all packets sent from OLT to the splitter are replicated at the splitter.\" Does this means that PON is a shared network system like the cable Internet access?If it is so, then is AON a Switched Netwrok, and the OLT is acting as a switch for the different ONTs?",
+            "subject": "PONs and AONs"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l7ehbx1i6rm1s4",
+        "id_c": 8,
+        "time": "2022-08-29T08:09:18Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi!Is anyone interested in starting a study group/chat? I know it's always helpful for me to have other people to learn concepts with. I'm not thinking of anything super formal, more like just get together whenever we feel like we need it.If anyone's interested, feel free to send me an email (aaishahk@usc.edu) and I can start a group chat on slack.",
+            "subject": "Study Group"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l7ezal1b9dh7ej",
+        "id_c": 9,
+        "time": "2022-08-29T16:32:09Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi,\n\nDue to an academic time conflict, I will have to permanently shift my OH timings by 30 mins. The new OH timings are the following:\n\n2:30 to 4:30 pm, Wednesdays\nLocation: PHE320/Zoom\n\nApologies for the inconvenience.\n\nBest,\nChinmay",
+            "subject": "Minor changes to Chinmay&#39;s OH timings"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "l7fag4m9kmx4l0",
+        "id_c": 10,
+        "time": "2022-08-29T21:44:23Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi,Due to conflict with other TA's Office hours and the discussion session, I am permanently shifting my Office hours on Wednesdays. My new office hours timings for the rest of the semester are the following:Monday 2:30PM-3:30PM,Wednesday 12:30 PM-01:30PM,PHE 320 / ZoomZoom Link:https://usc.zoom.us/j/91675508410?pwd=cFVjWDRRNHc3cW9zZ1pMeVZxR0JFUT09Meeting ID: 916 7550 8410Passcode: EE450Sorry for the inconvenience. The same information is updated on the D2L Staff Information Page. Please join the office hours(in person or on zoom) if you have any doubts. Thank youRegards,Gagan",
+            "subject": "Changes to Gagan&#39;s OH timings"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "l7gibrodb9x505",
+        "id_c": 11,
+        "time": "2022-08-30T18:12:43Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear students,Due to health reasons, I am unable to attend in person for office hours and discussion session this week (Aug. 29 - Sep. 2). However, I will hold online remote office hours and discussion session at the usual time. My in-person office hours and discussion session will resume next week.To join my office hours via Zoom:Wednesday 8:45am - 9:45am, Friday 2:00pm - 3:00pmhttps://usc.zoom.us/j/8999083483?pwd=Q0dldCtOUjdXdnV0N0o0NkJxSk1DQT09Meeting ID: 899 908 3483Passcode: xuejingTo join discussion session at 1:00pm - 1:50pm on Friday:Live Video will be played in the classroom. You can come to the classroom (OHE 122) and interact with me.Or watch recorded video on DEN after discussion ends(DEN students only)Live via Webex: go to DEN -> Content -> Access to Online Lecture -> Virtual Meetings -> Find the discussion session and joinThanks for your understanding. Looking forward to meet you guys virtually this week :)Xuejing",
+            "subject": "Xuejing&#39;s Discussion Session &amp; Office Hours Change for Week 2"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "l7h1l0aitzs5ik",
+        "id_c": 12,
+        "time": "2022-08-31T03:11:47Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Homeworks will be assigned by the professor only(An email will be sent to the students). This email sent by Rao is regarding the installation of Virtual Machine for the project (Covered in the Friday Discussion Session).",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Is there any home work given?I got this email from Rao, not sure what do ?Am I missing something?",
+            "subject": "Is there any Home work given?"
+        },
+        "folders": [
+            "logistics",
+            "other"
+        ],
+        "id": "l7i5lqozx21629",
+        "id_c": 13,
+        "time": "2022-08-31T21:52:05Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "ForDEN students only: Go to DEN -> Content -> Access to Online Lecture -> Virtual Meetings -> click Join",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "I couldn't find the link to the meeting. When I click on these links, it didn't redirect me to the meeting, but I received message below.Also, the corresponding meeting links have incorrect date? I don't know how to join virtual session online.",
+            "subject": "Question about virtual meeting link"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "l7j5w9zped94kg",
+        "id_c": 14,
+        "time": "2022-09-01T14:48:03Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear StudentsHomework #1 is posted. It is due Tuesday, September 13 (9:00 PM). The material needed to solve the problems is in section 1.4 so read it and try solving problems. We started discussing this section today and will wrap it up this coming TuesdayHomeworks should be uploaded to drop boxes that will be created throughout the semester. Homeworks are individual effort. It is OK to form study group or discuss the problems with others however,when you write your solutions, you need to be by yourself. Any sign of plagiarism would result in an F in course. Do NOT embarrass yourself.On your HW, you MUST write the following items ONLYFull nameCourse Number (EE450)Homework # (in this case HW #1)And that is it. Do NOT write your ID, Phone number, e-mail, Address (unless you want to invite me to a home cooked meal!!!!!!!). These rules apply to all HWs and Labs. I do NOT want to keep repeating them!!Hope you all have a nice & safe long weekend. Make it productive. It will be HOT!Homework #1, due Tuesday, September 13 (9PM).Read Sections 1,.2, 1.3 and especially 1.4, 1.5Problems:P4, P5, P6, P7, P10, P12, P20, P21, P25 and P28Stay safe and healthy",
+            "subject": "HW #1"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l7jbxdu87gq14n",
+        "id_c": 15,
+        "time": "2022-09-01T17:36:53Z",
+        "type": "note",
+        "vote": 4
+    },
+    {
+        "answers": [
+            {
+                "content": "If you registered today, it takes some time (~ day) for the information to propagate through the system. Otherwise (i.e. if you have registered more than a day ago, you need to contact DENStay safe and healthy",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "It says I don't have permission to view the content. Can someone help? Thank you!",
+            "subject": "I joined the class late and I cannot access the lectures on Den."
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l7kx54igpjl27d",
+        "id_c": 17,
+        "time": "2022-09-02T20:18:32Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "A Byte is an 8-bit wordB: Byteb: bitStay safe and healthy",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "In problem P6.g the R is in units of 10 Mega bits per second, NOT 10 Mega bytes per second, correct?I can’t seem to find a definitive answer in the book. I believe the standard is capital B = bytes and lower case b = bits.Thanks!",
+            "subject": "Bytes vs. Bits"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l7kz93l8snuox",
+        "id_c": 19,
+        "time": "2022-09-02T21:17:37Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "These instructions are for the students who are having a hard time setting up the provided studentVM for the EE450 socket programming project:You can use Ubuntu 16.04 instances offered by AWS. Here are the steps on how to configure (also see the attached PDF doc):Pick up the Ubuntu 16.04 instance t4g.micro with Free trial on AWS,Setup ssh access using:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.htmlFollow steps fromhttps://ubuntu.com/tutorials/ubuntu-desktop-aws#5-connecting-to-ubuntu-desktopto configure new AWS MachineConnect to Ubuntu Desktop step requires VNC Viewer for Mac that can be downloaded from this place. You can access the GUI by entering the VNC URL in this Application:VNC Viewer:http://www.realvnc.com/download/get/1286/P.S. Make sure you stop your instance and free your public IP when you go offline so that you don’t exceed your free tier quota (which is 750 hours of free limit plan).EE450_Socket_Programming_Project__Alternatives_to_the_Provided_VM.pdf",
+            "subject": "EE450 Project Environment: Alternative to the Provided VM"
+        },
+        "folders": [
+            "project"
+        ],
+        "id": "l7l7bnge1gqhr",
+        "id_c": 20,
+        "time": "2022-09-03T01:03:32Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "My Dear EE450 students:In Problem P28, the question say \"Refer to P24\", change that to \"Refer to P25\"Stay safe and healthy",
+            "subject": "Typo in P28"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l7lwzwugvji7g7",
+        "id_c": 21,
+        "time": "2022-09-03T13:02:15Z",
+        "type": "note",
+        "vote": 5
+    },
+    {
+        "detail": {
+            "content": "Hello Everyone,\n\nIf anyone is interested to discuss the Assignment 1 and you are free tomorrow, we can discuss at Leavy Library, 202 I from 3pm - 5pm.\n\nThank you.",
+            "subject": "Discussion study group"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l7nqvd1do1818f",
+        "id_c": 22,
+        "time": "2022-09-04T19:46:17Z",
+        "type": "note",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "The professor has given question numbers from the Book. There’s no PDF as such.",
+                "type": "s_answer",
+                "vote": 2
+            },
+            {
+                "content": "@15",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hey guys,I'm not able to view my Homework under the homework tab on D2L. Does anyone know where I'm going wrong?Thanks.",
+            "subject": "HW not visible on D2L"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l7o132561gm7m5",
+        "id_c": 23,
+        "time": "2022-09-05T00:32:12Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Please go to My tools -> Assignments",
+                "type": "i_answer",
+                "vote": 3
+            }
+        ],
+        "detail": {
+            "content": "Hi everyone,Does anyone know where to find the dropbox folder/link for uploading HW#1? Thanks very much in advance.",
+            "subject": "dropbox folder for HW#1 upload"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l7pa1vjj6xt5ux",
+        "id_c": 24,
+        "time": "2022-09-05T21:31:00Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "content/week3/Protocol Architecturehttps://courses.uscden.net/d2l/le/content/23457/viewContent/408142/View",
+                "type": "s_answer",
+                "vote": 0
+            },
+            {
+                "content": "Content>>>> week 3Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Can anyone tell me where can I find the Layered architecture slides? I cannot find them on DEN site.",
+            "subject": "Layered architecture slides."
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l7y6x0oj7uw78o",
+        "id_c": 43,
+        "time": "2022-09-12T03:13:10Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "You can view it through the first video recording, but there doesn't seem to be a file. The course workload part and grading policy part.",
+                "type": "s_answer",
+                "vote": 0
+            },
+            {
+                "content": "content>>>> course administration folderStay safe and healthy",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "I'm trying to find the PDF of the slides shown during lecture 1 which outline grading policies, how much each assignment/project is worth as a percentage, etc. I'm having difficulty finding that slide deck, is it available to us somewhere I'm not seeing?",
+            "subject": "Lecture 1 Slides"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "l7yb8yl6eql5ub",
+        "id_c": 44,
+        "time": "2022-09-12T05:14:26Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "My Dear, you have to understand that the traffic inserted onto the Internet is random. For some period of time, it might be lite, others it will be congested. The forwarding of Packets from one router to another is based \"store and forward\" so some routers maybe congested resulting in longer delay.Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "In the textbook, there's a section in chapter 1 that discusses how the Traceroute program works. It shows the following screenshot:The section explains that each row shows a a subsequent packet as it arrives at the next router. When the nth packet arrives at the nth router, it returns a message showing the round-trip delay for the packet. I expected the round-trip delay times to grow as the packet numbers increased, but they don't always increase. The textbook gives this explanation but I'm not understanding their message:Please explain?",
+            "subject": "Traceroute"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "l7zd5hcri024gy",
+        "id_c": 45,
+        "time": "2022-09-12T22:55:29Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Yes, we do.",
+                "type": "s_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Do we need to count the propagation delay of the last (20th) acknowledge packet in the total time of sending the packet?",
+            "subject": "HW1 - P28"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l7ziigaoyqt12s",
+        "id_c": 46,
+        "time": "2022-09-13T01:25:32Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "You can submit your Homework multiple times(before the deadline) and only the latest submission will be considered for grading",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "I've submitted my HW on website but after I reviewed my note I find some mistakes in HW to correct. Can I submit it again? Or it cannot be changed after submitting?",
+            "subject": "Can I submit the HW again?"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l7zopkfkn7t22h",
+        "id_c": 47,
+        "time": "2022-09-13T04:19:02Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "I think you should go with (a). As it is mentioned in the question that caravan travels 175 km and crosses 3 tollbooths. And you need to calculate the delay until the caravan has crossed the third tollbooth.",
+                "type": "s_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "For question 5, it supposes the caravan \"finishing just after a third tollbooth\".I am kind of confused about \"after a third tollbooth\". I assumed three situations, I am wondering which one I need to assume for this question?",
+            "subject": "HW1 - P5"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l7zudd1jduu64q",
+        "id_c": 48,
+        "time": "2022-09-13T06:57:30Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "@21",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "For part(a), what's the length of the data? Should I assume it's 40,000 bits * 20 ?For part(b), \"transimission time of an acknowledgement packet is negligible\" should I assume that both dtrans and dprop of acknowledgement are equal to 0?",
+            "subject": "HW#1-P28"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l80ff3c0nfl14s",
+        "id_c": 49,
+        "time": "2022-09-13T16:46:43Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "lol.....Americans are NOT crazy about Soccer (Because they are not so good in it compared to Europe or south America). I love Soccer and I also love American football. They are both FUN!!!The length of the football field is 100 yards which comes to roughly 92 meters.The world cup of Soccer is coming in November. I can't wait!!!!!Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "I have found the width of a bit, but I do not know how to answer the football field question. How big is the football field? is it football or soccer? is it the length of the field or the width of the field?",
+            "subject": "HW 1 - P25(d)"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l80lv5rc2q7jn",
+        "id_c": 50,
+        "time": "2022-09-13T19:47:10Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Virtual is a Type of Packet Switching (in that it is still based on Store and forward), however they \"resemble\" circuit switching in the sense that it is connection oriented (which means you need to set up the virtual circuit first before transmitting your data. All packets belonging to a flow (or session) are guaranteed to arrive in order (unlike Packet switching). Virtual circuits differ from circuit switching in the sense that the circuit is dedicated (in CS) where as the circuits are shared (in VC)Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "What are virtual circuits?Are they some type of packet-switched network ?",
+            "subject": "General Doubt"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l81x2vmvs014x",
+        "id_c": 51,
+        "time": "2022-09-14T17:48:52Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "This is a note. I accidentally posted a as question.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "This note is just for today.Due to a sudden conflict with an academic activity, today, I will hold my office hours from 6pm to 8pm (instead of 2:30pm to 4:30pm).The zoom link and the location remains the same.Apologies for the inconvenience.Best,Chinmay",
+            "subject": "Chinmay&#39;s today&#39;s OH timings"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "l81xl1wdhdk67r",
+        "id_c": 52,
+        "time": "2022-09-14T18:03:00Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Here is the list of your designated Grader. Graders are responsible for grading HWs and Labs ONLYStay safe and healthyEE450-Designated-Grader.xlsx",
+            "subject": "Designated Grader"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "l833e1i7jse39k",
+        "id_c": 53,
+        "time": "2022-09-15T13:33:17Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Any scientific calculator will do. We don't need graphic one!Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "For the midterm and the exam, can we use any model of Casio's and Texas Instruments' scientific calculator? I remembered that we cannot use graphic calculator during the exams, but forgets about the scientific calculators.Thanks",
+            "subject": "Calculator for midterm and exams"
+        },
+        "folders": [
+            "midterm",
+            "final_exam"
+        ],
+        "id": "l859niiedr51vc",
+        "id_c": 54,
+        "time": "2022-09-17T02:04:09Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Lab1_MacOS_steps.docx",
+                "type": "i_answer",
+                "vote": 1
+            },
+            {
+                "content": "I think the command “sudo ipconfig set en0 DHCP” can also do this thing.If we use macos to do this lab, what kind of screenshot should we submit?",
+                "type": "s_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "I wanted to try the second lab but I was not able to find the commands for Mac OS.I saw the lab has commands for windows which don't work on Mac and I also did not find any helpful results on the web.Can anyone help me out. I feel as I am missing something very obvious.",
+            "subject": "Lab 2 commands"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l86nvliw68y3dy",
+        "id_c": 55,
+        "time": "2022-09-18T01:30:07Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Folder is createdStay safe and healthy",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Where can I submit the HW2(which was assigned at Sept. 16)?I check the place where we submitted HW1, but I find that I cannot submit HW2 there by now.",
+            "subject": "About HW2 submission"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "l870tzxbfjvl",
+        "id_c": 56,
+        "time": "2022-09-18T07:32:47Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Please checkRFC2131to understand this:If the broadcast bit is not set and 'giaddr' is zero and 'ciaddr' is zero, then the server unicasts DHCPOFFER and DHCPACK messages to the client's hardware address and 'yiaddr' address.Here:giaddr:Relay agent IP address, used in booting via a relay agent.ciaddr:Client IP address; only filled in if client is in BOUND, RENEW or REBINDING state and can respond to ARP requestsyiaddr: 'your' (client) IP address.What it means is that when the DHCPDISCOVER message broadcasted by the client has the broadcast bit set to 0 (shown as Bootp flags in wireshark) and if the client IP address and relay agent IP address are 0.0.0.0 then the DHCPOFFER will be unicast by the server. The destination IP address for the DHCPOFFER packet would be the address which the server is offering to the client",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hello,I tried the lab 2 commands. The release worked fine and then I tried to obtain an IP address. The DHCP message looks as expected, but instead of broadcasting the message during OFFER and ACK, the server's destination address is my old IP address, even though it is 0.0.0.0 now (as can be seen in the screenshot).Can someone please explain how is the server still sending to the IP address 192.168.1.46 when my current IP address is 0.0.0.0?",
+            "subject": "DHCP&#39;s Destination IP address is my previous IP address even after release"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l87n1mw44l858u",
+        "id_c": 57,
+        "time": "2022-09-18T17:54:35Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "No It is not the same. You can find HW2 in D2L>Content>Homeworks>Homework #2",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hello,Saw someone asked about HW2 submission, but I don't see where was the HW2 released. Is the Lab2 the HW2?",
+            "subject": "Is Lab2 the HW2?"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "l87pv1rcyzu21",
+        "id_c": 58,
+        "time": "2022-09-18T19:13:26Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "No need to worry. Just include the screenshots similar to the ones given in 'Lab1_MacOS_steps' for the initial part and put a note for your grader. Make sure to answer all the other questions given in the lab manual.",
+                "type": "i_answer",
+                "vote": 2
+            }
+        ],
+        "detail": {
+            "content": "Dear Professor Zahid and TAs,After proceeding the process given by the document \"Lab1_MacOS_steps\", I have found that all the processes I have done do not based on the codes in command prompt. I am wondering how I can get the same results in command prompt as Windows laptops. If I cannot get the expected results in command prompt, do I need to take a screenshoot of command prompt?",
+            "subject": "Problems in Screenshooting Command Prompt"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l882kmo8sh45iy",
+        "id_c": 59,
+        "time": "2022-09-19T01:09:15Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Edit: We have posted the email ids of the designated graders on d2l. @53",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hello everyone, I found that there is a correction mistake in HW1, I only know Grader's name but I don't know the mailbox. Is there any way to get Grader's mailbox and explain the situation?",
+            "subject": "Homework #1 regrading"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l88a1sxd89c2zl",
+        "id_c": 60,
+        "time": "2022-09-19T04:38:34Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "my tools > assignments > hw1 > score / feedback (unread)",
+                "type": "s_answer",
+                "vote": 0
+            },
+            {
+                "content": "There are still some homework haven't been graded, including yours. If you are eager to get your score, you can contact your designated grader.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "I am not able to view my HW1 grade on D2L.",
+            "subject": "Missing HW1 grade"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l88wonotzxs1uz",
+        "id_c": 61,
+        "time": "2022-09-19T15:12:12Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "I attached two Labs. The first Lab (Introduction), you do NOT need to submit anything or answer any questions (it will only guide you how to download the tool and use it). The second Lab (DHCP) requires you to submit a report. See details on D2L.Stay safe and healthy.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Professor said that \"No report is required for lab1\" in the email. But if so, how can we submit our answers of the lab1 questions?",
+            "subject": "About lab1 submission"
+        },
+        "folders": [
+            "lab1"
+        ],
+        "id": "l89c8ll7zb53cn",
+        "id_c": 62,
+        "time": "2022-09-19T22:27:36Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Please see contents->Wireshark Lab-DHCP",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Where do we access the labs?I keep seeing emails and piazza questions about labs but I have no clue what they are.All I see in D2L is homeworks. The labs section is empty for me. Are people referring to the utilities Professor Zahid has sent out?",
+            "subject": "Labs"
+        },
+        "folders": [
+            "lab1"
+        ],
+        "id": "l89cxalv9lz1tb",
+        "id_c": 63,
+        "time": "2022-09-19T22:46:49Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "I feel the file would be considered to be ‘sent’ only once we know that the last bit has been delivered reliably. Hence, the wait for the acknowledgement to the last bit.",
+                "type": "s_answer",
+                "vote": 0
+            },
+            {
+                "content": "The author used a misleading word \"sent\". He should have used Transfer delay or end-to-end delay. If grader deducted points drop by my office and I will restore them.Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "In part (a), the question is asking how long it takes to send the file assuming the file is sent continuously.  In reviewing the answer to this question, it is confusing.Why is propagation delay taken into consideration in this case?Isn't the file considered to be \"sent\" as soon as the sender puts the last bit of the file on the wire?",
+            "subject": "P28(a)"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l89lddlt2cj4ba",
+        "id_c": 64,
+        "time": "2022-09-20T02:43:16Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "created.stay safe and healthy",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hello, does someone know where to upload lab2 report? I cannot find where to submit lab2 report.",
+            "subject": "dropbox folder for Lab2 report upload"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l89thzi8icf4sq",
+        "id_c": 65,
+        "time": "2022-09-20T06:30:48Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "Can you post a screenshot of it as an example? If the key part of it is in English, then I think it will be good.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hi dear Professor Zahid,Since my PC's language is Simplified Chinese, and it seems unable to change it to English, the content shown in Windows Command Prompt will be Chinese as well, is it okay to submit the screen shots with it?",
+            "subject": "Language issue"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8ao55w8lt168q",
+        "id_c": 66,
+        "time": "2022-09-20T20:48:38Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "I was stuck with the same problem as you a few days ago....Because in the example given, the computer is connected via an Ethernet cable.  And the Ethernet field is not empty only when our computer is connected to the network with an Ethernet cable.We can perform this lab with Wi-Fi connection, and directly observe the output of Wireshark.",
+                "type": "s_answer",
+                "vote": 2
+            }
+        ],
+        "detail": {
+            "content": "Hi! I'm working on DHCP lab and I'm stuck at the first step. when I type ipconfig /release I get this result. I have tried a couple of solutions offered on the internet. I even connected to the internet via LAN but so far I couldn't resolve it. \n![Screenshot_2022-09-20_235204.png](/redirect/s3?bucket=uploads&prefix=paste%2Fkcf04tlyzcx3bu%2Fe4d07d3e66b25170ea528787f076764f5655f77f3a467acf706d006afc3470e3%2Fimage.png)",
+            "subject": "DHCP lab"
+        },
+        "folders": [
+            "lab1"
+        ],
+        "id": "l8b9yfkv26dgg",
+        "id_c": 67,
+        "time": "2022-09-21T06:59:15Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Did you run the packet capture before releasing the iP? If not, please try again as per the directions in the lab manual.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hello,While being connected, I released current IP before renew DHCP lease but I couldn't trace the release action. Can someone explain this? Thank you!",
+            "subject": "Couldn&#39;t Trigger/Trace DHCP Release Message"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8c9bglshcn5ky",
+        "id_c": 68,
+        "time": "2022-09-21T23:29:10Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "I found a link that is useful for me to understand how proxy arp works. Feel free to access it! If there is something wrong with the content in this website, please tell me!https://www.cisco.com/c/en/us/support/docs/ip/dynamic-address-allocation-resolution/13718-5.html",
+            "subject": "Share a link on proxy arp"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l8ccrp3nykx5bq",
+        "id_c": 69,
+        "time": "2022-09-22T01:05:46Z",
+        "type": "note",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "I see that the txn ids are the same, so ignore the duplicates.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hello,On m1 mac, my device sends out two \"DHCP discover\" when I renew IP from released status. How would you like me to draw the time datagram? Thanks!",
+            "subject": "Two DHCP Discover"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8cdxvjr1lr3np",
+        "id_c": 70,
+        "time": "2022-09-22T01:38:34Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "Try:sudo ifconfig en0 down",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hello,I am stuck at the first step. After disabling DHCP configuration, my IP address is supposed to be 0.0.0.0, but it shows that 10.25.160.229. Can anyone help with this? Thanks.",
+            "subject": "Lab 2"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8cfowgcsmh5pm",
+        "id_c": 71,
+        "time": "2022-09-22T02:27:34Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "You need to highlight the answers in the pdf and attach screenshots in your report.Sample screenshot:",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Dear Professor Zahid, TAs and Graders,After I completed the DHCP lab and tried to write my report, I noticed that in \"Hand In\" session, there was a statement \"when answering a question below, you shouldhand in a printout of the packet(s) within the trace that you used to answer the question asked. Annotate the printout to explain your answer.To print a packet, use File->Print, choose Selected packet only, choose Packet summary line, and select the minimum amount of packetdetail that you need to answer the question.\" Do we really need to use the print out PDF document to solve all 14 problems or we can use screenshots and paste screenshots below each questions?Honestly, the print-out PDF documents are not as vivid as screenshots.",
+            "subject": "Problem in Representing Results"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8cfxj78n5l1ra",
+        "id_c": 72,
+        "time": "2022-09-22T02:34:17Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "If you need to draw something, you can use online tools like draw.io",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hello,The instructions for submissions say \"The ReportMUSTbe Typed (Anything written by pen or pencil, points will be deducted).\"The question 2 for the lab asks us to draw a timing diagram. Is the diagram also required to be typed(like in the text) or can that be drawn on a paper?",
+            "subject": "Lab2 question 2"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8chrftx16o6om",
+        "id_c": 73,
+        "time": "2022-09-22T03:25:32Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "maybe you can check your email",
+                "type": "s_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Where can I exactly find the weekly reading assignments? I seem to get lost on D2L.",
+            "subject": "Reading assignment"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l8cmrh6t1nh3xk",
+        "id_c": 74,
+        "time": "2022-09-22T05:45:32Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Those are the initials of your designated grader.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "What is meant by Y.L. written during the grading of HW1?",
+            "subject": "HW1"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "l8cmrq0a7m84hz",
+        "id_c": 75,
+        "time": "2022-09-22T05:45:43Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "If you are using MacOS, read the posts @55 @71. If you connected to the network with Wi-Fi, check the Wi-Fi section rather than Ethernet one. If these do not help, follow up with a screenshot in this post.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "When i tried Lab2: release at the very beginning, after typing sudo ifconfig, I got a bunch of lines and I saw en0 with several ipv6 addresses but with no ipv4 addresses. I don’t know why, could anyone help me about that issue?",
+            "subject": "Lab2 Question"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8cn5odkm8g4ev",
+        "id_c": 76,
+        "time": "2022-09-22T05:56:34Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear students,Project document and the input data files have been posted on D2L.Due: Monday, November 28, 11:59 AM (Deadline is strictly enforced!!!)Remember tostart working on the project as soon as possible, as you may encounter many unexpected situations while actually working on it!Please be noted that all students are expected to write all their code on their own. Any signs of academic dishonesty will be taken VERY seriously.You are allowed to use blocks of code from Beej’s socket programming tutorial (Beej’s guide to network programming) in your project if you cite the copied part in your code.HOWEVER, copying code from friends is called plagiarism not collaboration and will result in an F for the entire course. Any libraries or pieces of code that you use and you did not write must be listed in your README file. All programs will be compared with automated tools to detect similarities; examples of code copying will get an F for the course.If you have any questions about what is or isn't allowed about plagiariam. Talk to the TA. \"I didn’t know\" is not an excuse.Hope you all enjoy the project!TAs",
+            "subject": "EE450 Project Posted on D2L"
+        },
+        "folders": [
+            "project"
+        ],
+        "id": "l8ddck2r3jdvo",
+        "id_c": 77,
+        "time": "2022-09-22T18:09:45Z",
+        "type": "note",
+        "vote": 2
+    },
+    {
+        "answers": [
+            {
+                "content": "The student's response is right. Updated response:From DHCP RFC(RFC2131):Reason for broadcast for DHCPACK and DHCPOFFER:If 'giaddr' is zero and 'ciaddr' is zero, and the broadcast bit is set, then the server broadcasts DHCPOFFER and DHCPACK messages to 0xffffffff.If the broadcast bit is not set and 'giaddr' is zero and 'ciaddr' is zero, then the server unicasts DHCPOFFER and DHCPACK messages to the client's hardware address and 'yiaddr' address. (Page 22)Unfortunately, some client implementations are unable to receive such unicast IP datagrams until the implementation has been configured with a valid IP address (leading to a deadlock in which the client's IP address cannot be delivered until the client has been configured with an IP address). (Page 24)Here:giaddr:Relay agent IP address, used in booting via a relay agent.ciaddr:Client IP address; only filled in if client is in BOUND, RENEW or REBINDING state and can respond to ARP requestsyiaddr: 'your' (client) IP address.Reason for broadcast for DHCPREQUEST:The client broadcasts a DHCPREQUEST message that MUST include the 'server identifier' option to indicate which server it has selected, and that MAY include other options specifying desired configuration values... The servers receive the DHCPREQUEST broadcast from the client. Those servers not selected by the DHCPREQUEST message use the message as notification that the client has declined that server's offer. (Page 15)So from DHCPREQUEST other servers get to know if the client has selected their IP address",
+                "type": "i_answer",
+                "vote": 1
+            },
+            {
+                "content": "According to what Professor explained, the reason of Ack is being broadcasted is not because it has to tell other DHCP servers that a specific IP address is already assigned to the client. (Instead, this is the reason why Request is broadcasted).The reason why Ack is being broadcasted is because some network operating systems do not allow the client to be identified by the offered address until the client gets the acknowledgement.Please let me know if I misunderstand something. Thanks.",
+                "type": "s_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "The client sends its MAC address to the server in the DHCP discover frame. Couldn't the server just use the client's MAC address as the destination for the DHCP offer and ack frames?",
+            "subject": "Why DHCP offer and ack frames are broadcasted?"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l8dw9lt4nzk43c",
+        "id_c": 78,
+        "time": "2022-09-23T02:59:20Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "It is better to be consistent with your classmates' submission format since the majority of students will submit the pdf version. Exporting .doc as .pdf is not that difficult. And this will also help lighten the graders' workload.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi everyone，are our lab 2 assignments must be pdf？",
+            "subject": "Lab2 submission"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8e379c74o75jy",
+        "id_c": 79,
+        "time": "2022-09-23T06:13:28Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "When following the guidline in \"Lab1_MacOS_steps.docx\" @55, after you turn off DHCP you must click \"OK\" and \"Apply\" to make changes taking effect as shown below. This can sucessfully release the IP address at my side.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "I am having a hard time releasing the DHCP for my interface. I tried the commands that were given in the m1_mac document and the TA suggestions from @55 @71. But none seems to be working.Even after releasing the IP, I am still getting IPv4 and IPv6 and I do not see inet 0.0.0.0 anywhere. I tried 'sudo ifconfig en0 down' this makes my interface go inactive and I am not able to capture packets at all. Please give us clear guidelines for M1 mac. Would really appreciate your help.",
+            "subject": "Having a hard time figuring out the commands for mac."
+        },
+        "folders": [
+            "lab1"
+        ],
+        "id": "l8eq95077yy1uk",
+        "id_c": 80,
+        "time": "2022-09-23T16:58:47Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "You can NOT split a Packet.Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hi,If sending a packet in a link with N parallels, can this packet be split into N parts and send through each parallel? Or has to go through one parallel entirely?",
+            "subject": "Send One Packet Through a Link with N Paralles"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l8f0x5kwkn2314",
+        "id_c": 81,
+        "time": "2022-09-23T21:57:24Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "BothStay safe and healthy",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "In the textbook question, if persistence HTTP is mentioned, should we always assume to use persistence HTTP with pipelining?Or should we provide calculation for persistence HTTP without pipelining as well?",
+            "subject": "Persistence HTTP in Assignment"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "l8faenfswc854",
+        "id_c": 82,
+        "time": "2022-09-24T02:22:57Z",
+        "type": "question",
+        "vote": 5
+    },
+    {
+        "answers": [
+            {
+                "content": "The ARP request does use a Broadcast MAC address (He doesn't know the unicast MAC address of the destination. That is what he is trying to get). ARP Packet does NOT have a payload just a header (You are confusing the ARP packet with the IP Packet). Review the charts on the format of the ARP Packet.What does the unicast MAC address and a broadcast IP address means!!!!!!!!!!!!!!!!!!!!!!! Think about it for a minute.Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "So in @78, the instructor replied that because some clients can only accept the broadcast IP address before the whole DHCP process is done, the DHCP offer and ack messages have to be broadcasted. I understand that for this reason, we have to use the broadcast IP address as the destination for the DHCP offer and ack. My question is, couldn't we use a unicast MAC destination with a broadcast IP destination? This way other hosts on the network no longer need to process the DHCP packets. They can drop the messages as soon as they see the destination MAC doesn't match.Similarly, in ARP, the requester knows the IP but not the MAC. Can the requester use a broadcast MAC destination with a unicast IP address? This way other hosts on the network no longer need to process the ARP payload. They can drop the messages as soon as they see the destination IP doesn't match. I actually don't remember if it is indeed how ARP works. If not, why not?",
+            "subject": "Why should IP broadcast implies MAC broadcast and vice versa?"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l8fbmy68t7462t",
+        "id_c": 83,
+        "time": "2022-09-24T02:57:23Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "They are the same. All the L2 switches are 'self-learning' in nature. They learn by keeping tack of the source MAC address. Things will become crystal clear after prof's lecture on switch tables, flooding, filtering, forwarding etc.,Hope that helps!",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "In section 6.7.1 at point 6, they have mentioned the use of a self-learning switch.Can someone please explain what they are and what makes them different from normal L2 switches?",
+            "subject": "What is a self-learning switch ?"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "l8fd59olt9y3mr",
+        "id_c": 84,
+        "time": "2022-09-24T03:39:38Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "The subnet mask (255.255.255.0) will be there in the DHCP message but it is not shown in the picture.",
+                "type": "s_answer",
+                "vote": 0
+            },
+            {
+                "content": "Excellent answer Sagar. Keep up your enthusiasmExcellent question Tu. That is why the subnet mask is important otherwise we have ambiguity!!!Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Dear TAs and Professor,I have a question regarding the DHCP relay agent situation.For the IP underlying in the red, I understand that we need to let DHCP server know which network the DHCP Discover is created from. But it seems like in this diagram, it does not mention anything about the subnet mask. Professor said that by indicating the relay agent IP is 1.1.1.254, the DHCP server know the network address is 1.1.1.X. But can it not also be 1.1.X.X, or others? How can DHCP be so sure that network address part is 1.1.1.X.Thank you very much.",
+            "subject": "Question regarding the DHCP relay agent situation"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "l8fdpgdv3ts2g9",
+        "id_c": 85,
+        "time": "2022-09-24T03:55:19Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [],
+        "detail": {
+            "content": "My host received 2 ACK packets (10.26.0.2 and 10.26.0.3). Does that mean 2 relay agents both received my broadcast message？If this is the case, then why is there only 1 relay agent (10.26.0.2) giving me the Offer message?",
+            "subject": "Lab 2: Received 2 ACK messages from different relay agents"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8gropwwacehp",
+        "id_c": 86,
+        "time": "2022-09-25T03:14:26Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "Professor ever told us in the lecture that the propagation speed will be light speed c if there is no illustrations provided. Hope this information is helpful to you~",
+                "type": "s_answer",
+                "vote": 2
+            },
+            {
+                "content": "You could also leave your answer in terms of Tp.Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Dear Professor, TAs, in chapter 2 Q10, since propagation velocity is not provided, should we assume it as the speed of light? Thank you.",
+            "subject": "HW Q10 Tp?"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "l8hrembjsm79l",
+        "id_c": 87,
+        "time": "2022-09-25T19:54:21Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Addresses that starts with 169.254 (in the range of 169.254.0.1 ~ 169.254.255.254, hence subnet mask is 255.255.0.0)) are referred to as Automatic Private IP address which allow a client to configure himself automatically if he is not able to see a DHCP server (i.e. when no DHCP server reply to DHCP discover message. These addresses aren’t useful, since the only things they can communicate with are local devices with other Auto configured addresses (That is why you see ARP for that address to make sure it is not used anywhere else in the local network), These addresses are NOT routable on the public internet and they will be replaced with real IP addresses  once the client finds a real DHCP server.Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "As I filters the ARP packet using Wireshark, My PC is probing two IP addresses. One is the IP address that is offered by the DHCP server. Another IP address my PC is probing is 169.254.19.180, which is a link_local address. Why does my computer requrest a link_local address?",
+            "subject": "Client ARP Probing on non DHCP assigned IP address"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8i0gc53ekm2zy",
+        "id_c": 88,
+        "time": "2022-09-26T00:07:38Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "I think professor mentioned in lecture that it is first come first serve basis. That is the first offer will be accepted.",
+                "type": "s_answer",
+                "vote": 1
+            },
+            {
+                "content": "If you have browsed through the RFC2131 like I asked you do, you would have seen the following statement\" The client receives one or more DHCPOFFER messages from one or more servers. The client may choose to wait for multiple responses. The client chooses one server from which to request configuration parameters, based on the configuration parameters offered in the DHCPOFFER messages\"The above means that DHCP leaves that selection algorithm as an implementation detail for the DHCP client. It maybe based on FCFS or it may be based on how long is the lease time of the offered IP address. It may also be based on how many other \"options\" are offered to the client, etc...Stay safe and healthy",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "In a scenario, where a host might receive, multiple DHCP OFFERs from different DHCP servers.How does the host decide which OFFER it will go with, as in which IP address it will raise the request for?Is there some specific algorithm executed by the network operating system to make this decision or simply whichever request was received first by the host will be given preference (first-come-first-server logic)?",
+            "subject": "How does a host decide which DHCP Offer to acknowledge ?"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8i0niuj97n4l2",
+        "id_c": 89,
+        "time": "2022-09-26T00:13:13Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "You can write about features/functionalities that you used in wireshark for this lab, and how the tool came handy in examining the packets.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "What is \"evaluation of the tool itself\" means in the Lab2 report requirement?",
+            "subject": "What is &#34;evaluation of the tool itself&#34; means in the Lab2 report requirement?"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8i8l6sja7d4am",
+        "id_c": 90,
+        "time": "2022-09-26T03:55:21Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "For persistent connection, please refer to this posthttps://piazza.com/class/l7dlij7ko7v4bv/post/82For parallel non-persistent connections, you can assume we can open as much as the number of objects.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Just want to verify that on Chapter 2 P10, the persistent connection is expected to be a single connection with pipelining? I seem to recall that it may be possible to open parallel persistent connections, but I don't see it in the book, so maybe I'm remembering that wrong.Also, as a follow up question, should we assume that the maximum amount of parallel non-persistent connections is 6?",
+            "subject": "Chapter 2 P10 - Is the persistent connection without paralleling?"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "l8ids8tzcf42hg",
+        "id_c": 91,
+        "time": "2022-09-26T06:20:48Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "The IP offered to you by your DHCP server does not need to be similar to the one shown in example. Regarding the broadcast of DHCP Offer and ACK, it depends on your Network Operating System. If your NOS supports receiving unicast packet before configuration of offered IP, then it will be sent to single IP (Unicast) by DHCP srver. If your NOS don't support unicast before IP is configured then only you will see broadcast DHCP Offer (255.255.255.255) and ACK.",
+                "type": "s_answer",
+                "vote": 2
+            }
+        ],
+        "detail": {
+            "content": "The destination of the offer and ACK DHCP messages are the IP address that is offered to the client from the server and differ from the lab example, is this an acceptable difference? I followed the commands in the lab instructions but am unable to capture offer and ACK packets with the broadcast IP as the destination.",
+            "subject": "Offer and ACK Destination not the Same"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8j8peoqf6067e",
+        "id_c": 93,
+        "time": "2022-09-26T20:46:24Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Based on the definition of packetization delay from part a, I don't believe the header is included when calculating packetization delay.",
+                "type": "s_answer",
+                "vote": 2
+            },
+            {
+                "content": "While calculating the packetization delay, don't consider the header. But do consider the same while calculating the store and forward delay.",
+                "type": "i_answer",
+                "vote": 2
+            }
+        ],
+        "detail": {
+            "content": "In the homework problem Chapter 6, Q.No 27, whenever L (size of packet) is mentioned, does that include the 5-byte header or while calculating packetization delay we should add 5 more bytes to the specified value of L?Like in part b, it is given L=1500, so does 1500 include the 5-byte header or we should add it bringing the total size of the packet to 1505 ?",
+            "subject": "Ch6 - Q27 General Doubt"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "l8jgvtmx6td7ev",
+        "id_c": 94,
+        "time": "2022-09-27T00:35:20Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Lab deadline was updated. Make sure to arrange your time wisely.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hello, I noticed the time that lab 1 is due is at 11:59am. Was this meant to be 11:59pm? I work during the day, is it possible for the due dates to all please be pm instead of am? Thank you",
+            "subject": "Lab 1 Due Time"
+        },
+        "folders": [
+            "lab1"
+        ],
+        "id": "l8jl77gno2612x",
+        "id_c": 95,
+        "time": "2022-09-27T02:36:10Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "The 2020 version is under Table of Contents>Programming Tutorials>bgnet_a4_c_1.I am herewith attaching the one I personally recommend (2005 version)Brian__Beej_Jorgensen__Hall_-_Beej_s_Guide_to_Network_Programming__Using_Internet_Sockets_(2005).pdf",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi. Does anyone find the Beej's tutorial for socket and c/cpp? The professor mentioned on class, but I can't find where it is.",
+            "subject": "Can&#39;t find Beej&#39;s tutorial on the website"
+        },
+        "folders": [
+            "project"
+        ],
+        "id": "l8jssmlrc5554t",
+        "id_c": 96,
+        "time": "2022-09-27T06:08:46Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "I see that you have successfully released your IP. I don't see any problem here.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hello, I’m stuck at the very first step with DHCP lab2. When I type ipconfig /release I get the result as below. It happens with both ethernet and wifi connection. How can I solve this problem?",
+            "subject": "DHCP lab ipconfig commands"
+        },
+        "folders": [
+            "lab2"
+        ],
+        "id": "l8kua8axxms6t7",
+        "id_c": 97,
+        "time": "2022-09-27T23:38:14Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "DHCP Probe message is sent by the client not the DHCP server after receiving DHCP ACK message. And ARP has local significance. So it will only be broadcasted within the local network only.Hope that helps.",
+                "type": "s_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "When DHCP server offers the IP address, it will send ARP probe broadcast accross the data link layer, but the IP address is fixed. If the IP address that the DHCP server is looking for is at the other side of the relay agent, will the relay agent act as a Proxy ARP router and broadcast that ARP probe to the other network? If not, what is the process for the DHCP server to ARP probe the network connected by the relay agent?",
+            "subject": "How does DHCP Server&#39;s ARP probe go to the other side of the relay agent?"
+        },
+        "folders": [
+            "lab2",
+            "other"
+        ],
+        "id": "l8lckh6qv0k6o9",
+        "id_c": 98,
+        "time": "2022-09-28T08:10:05Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Midterm and finals dates are present on D2L(Content> Midterm/Final Dates)",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hello! I noticed today that in my planner I have the midterm date written as next friday, but I could not find the information again to get the time. My discussion section is on Wednesday and I wanted to double check that the midterm will indeed be on friday?Please let us know where to find more information to prepare.",
+            "subject": "Midterm Dates"
+        },
+        "folders": [
+            "midterm"
+        ],
+        "id": "l8lvqv5txlp1ng",
+        "id_c": 99,
+        "time": "2022-09-28T17:06:55Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [],
+        "detail": {
+            "content": "Hello! I noticed today that in my planner I have the midterm date written as next friday, but I could not find the information again to get the time. My discussion section is on Wednesday and I wanted to double check that the midterm will indeed be on friday?Please let us know where to find more information to prepare.",
+            "subject": "Midterm Dates"
+        },
+        "folders": [
+            "midterm"
+        ],
+        "id": "l8lvrwq7a0q4yj",
+        "id_c": 100,
+        "time": "2022-09-28T17:07:44Z",
+        "type": "question",
+        "vote": 0
+    }
+]
