@@ -1,6 +1,7 @@
 import time
 import threading
 from nltk.tokenize import word_tokenize
+import nltk
 from bs4 import BeautifulSoup
 
 import json
@@ -10,6 +11,7 @@ from flask import Flask, request, jsonify
 import requests
 from flask_cors import CORS
 
+nltk.download('punkt')
 
 user_log = []
 
