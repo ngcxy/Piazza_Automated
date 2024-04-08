@@ -18,7 +18,7 @@ def create_app():
     app = Flask(__name__)
     CORS(app)
 
-    @app.route('/start/<cid>')
+    @app.route('/start/<cid>', methods=['POST'])
     def session_start(cid):
         data = request.get_json()
         email = data.get('email')
