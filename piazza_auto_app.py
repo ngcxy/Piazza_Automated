@@ -43,7 +43,7 @@ def create_app():
             embed(email, cid, cname)
             user_log.append({"email": email, "cid": cid, "user_type": user_type})
             print(user_log)
-            return jsonify(message=f"The bot for course {cid}, user {email} is up and running!"), 200
+            return jsonify(message=f"The bot for course {cid}, {cname}, user {email} is up and running!"), 200
 
     @app.route('/stop/<cid>')
     def session_stop(cid):
@@ -94,27 +94,30 @@ def embed(email, cid, cname):
     print("Start getting posts...(might take some minutes)")
 
     response_posts = requests.get(f"http://lax.nonev.win:5500/users/{email}/courses/{cid}/posts/all")
-    response_posts = response_posts.json()
-    print(f"------{len(response_posts)}")
-    # with open("test_w.json", "r") as file:
-    #     response_posts = json.load(file)
 
-    print("Successfully get all posts!")
-    # with open("test_w.json", "w") as file:
-    #     json.dump(response_posts, file)
+    if response_posts.status_code == 401:
+        return jsonify(message='Getting all posts failed'), 401
+    if response_posts.status_code == 200:
+        print("Successfully get all posts!")
+        response_posts = response_posts.json()
+        print(f"------{len(response_posts)}")
 
-    preprocess = preprocess_qa_pairs(response_posts)
-    request_body = {
-        "courseID": cname,
-        "fileID": "Piazza_API",
-        "content": preprocess
-    }
-    print("Sending to embedding model")
-    response_embed = requests.post(f"http://lax.nonev.win:5000/upload-json", json=request_body)
-    if response_embed.status_code == 200:
-        print("Embed successfully!")
-    else:
-        print("Failed to embed...")
+
+        # with open("test_w.json", "w") as file:
+        #     json.dump(response_posts, file)
+
+        preprocess = preprocess_qa_pairs(response_posts)
+        request_body = {
+            "courseID": cname,
+            "fileID": "Piazza_API",
+            "content": preprocess
+        }
+        print("Sending to embedding model")
+        response_embed = requests.post(f"http://lax.nonev.win:5000/upload-json", json=request_body)
+        if response_embed.status_code == 200:
+            print("Embed successfully!")
+        else:
+            print("Failed to embed...")
 
 
 def bot():
