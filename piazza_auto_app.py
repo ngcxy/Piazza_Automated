@@ -105,7 +105,7 @@ def embed(email, cid, cname):
 
     preprocess = preprocess_qa_pairs(response_posts)
     request_body = {
-        "courseID": cid,
+        "courseID": cname,
         "fileID": "Piazza_API",
         "content": preprocess
     }
