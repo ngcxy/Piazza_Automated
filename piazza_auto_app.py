@@ -138,9 +138,8 @@ def bot():
                 pid = unread["id_c"]
                 print(pid, question)
                 response_answer = requests.post("http://lax.nonev.win:5000/ask", json={"question": question, "courseID": cid}).json()
-                answer1 = response_answer["answer"]
-                answer2 = response_answer["llamaIndexAnswer"]
-                answer = f"TA bot 1:\n{answer1}\n\nTA bot 2:\n{answer2}"
+                answer = response_answer["answer"]
+                answer = f"TA bot:\n{answer}\n"
                 # answer = f"Coursistant answer:\n{answer1}"
                 request_data = {"content": answer, "revision": 0, "user_type": user_type}
                 response_post = requests.post(f"http://lax.nonev.win:5500/users/{email}/courses/{cid}/posts/{pid}",json=request_data)
