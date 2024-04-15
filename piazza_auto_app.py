@@ -31,15 +31,16 @@ def create_app():
             return jsonify(message='Invalid credentials'), 401
         if response_login.status_code == 200:
             response_course = requests.get(f"http://lax.nonev.win:5500/users/{email}/courses/all")
-            # print(response_course.json())
+            print(response_course.json())
             if cid not in [entry["id"] for entry in response_course.json()]:
                 return jsonify(message='Invalid Course ID'), 404
             cname = ""
-            for item in response_course.json().values():
+            for item in response_course.json():
                 if item["id"] == cid:
                     cname = item["name"]
+            print(cname)
             # embed(email, cid)
-            embed(email, cname)
+            embed(email, cid, cname)
             user_log.append({"email": email, "cid": cid, "user_type": user_type})
             print(user_log)
             return jsonify(message=f"The bot for course {cid}, user {email} is up and running!"), 200
@@ -88,7 +89,7 @@ def preprocess_qa_pairs(data):
     return preprocessed_data
 
 
-def embed(email, cid):
+def embed(email, cid, cname):
     print("Start embedding!")
     print("Start getting posts...(might take some minutes)")
 
