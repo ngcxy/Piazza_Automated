@@ -26,6 +26,7 @@ def create_app():
         user_type = data.get('user_type')   # user_type: "s" or "i"
         request_data = {"email": email, "password": password}
         response_login = requests.post("http://lax.nonev.win:5500/users/login", json=request_data)
+        print(f"User {email} logged in for course {cid}!")
         if response_login.status_code == 401:
             return jsonify(message='Invalid credentials'), 401
         if response_login.status_code == 200:
@@ -33,8 +34,12 @@ def create_app():
             # print(response_course.json())
             if cid not in [entry["id"] for entry in response_course.json()]:
                 return jsonify(message='Invalid Course ID'), 404
-            # user_log.append({"email": email, "cid": cid, "type": user_type})
-            embed(email, cid)
+            cname = ""
+            for item in response_course.json().values():
+                if item["id"] == cid:
+                    cname = item["name"]
+            # embed(email, cid)
+            embed(email, cname)
             user_log.append({"email": email, "cid": cid, "user_type": user_type})
             print(user_log)
             return jsonify(message=f"The bot for course {cid}, user {email} is up and running!"), 200
@@ -89,6 +94,7 @@ def embed(email, cid):
 
     response_posts = requests.get(f"http://lax.nonev.win:5500/users/{email}/courses/{cid}/posts/all")
     response_posts = response_posts.json()
+    print(f"------{len(response_posts)}")
     # with open("test_w.json", "r") as file:
     #     response_posts = json.load(file)
 
@@ -111,7 +117,7 @@ def embed(email, cid):
 
 
 def bot():
-    print("Bot working!")
+    # print("Bot working!")
     for user in user_log:
         email = user["email"]
         cid = user["cid"]
