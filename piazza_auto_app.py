@@ -2,6 +2,7 @@ import time
 import threading
 from nltk.tokenize import word_tokenize
 from bs4 import BeautifulSoup
+import json
 
 
 from flask import Flask, request, jsonify
@@ -38,6 +39,7 @@ def create_app():
             for item in response_course.json():
                 if item["id"] == cid:
                     cname = item["name"]
+                    cname = cname.replace(" ", "")
             print(cname)
             # embed(email, cid)
             embed(email, cid, cname)
@@ -94,6 +96,8 @@ def embed(email, cid, cname):
     print("Start getting posts...(might take some minutes)")
 
     response_posts = requests.get(f"http://lax.nonev.win:5500/users/{email}/courses/{cid}/posts/all")
+    # with open("test_w.json", "r") as file:
+    #     response_posts = json.load(file)
 
     if response_posts.status_code == 401:
         return jsonify(message='Getting all posts failed'), 401
@@ -102,9 +106,8 @@ def embed(email, cid, cname):
         response_posts = response_posts.json()
         print(f"------{len(response_posts)}")
 
-
         # with open("test_w.json", "w") as file:
-        #     json.dump(response_posts, file)
+        #     response_posts = json.load(file)
 
         preprocess = preprocess_qa_pairs(response_posts)
         request_body = {
@@ -118,6 +121,7 @@ def embed(email, cid, cname):
             print("Embed successfully!")
         else:
             print("Failed to embed...")
+            print(response_embed.text)
 
 
 def bot():
