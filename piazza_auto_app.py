@@ -24,6 +24,7 @@ def create_app():
         data = request.get_json()
         email = data.get('email')
         password = data.get('password')
+        embedding = data.get('embedding', True)
         user_type = data.get('user_type')   # user_type: "s" or "i"
         request_data = {"email": email, "password": password}
         response_login = requests.post("http://lax.nonev.win:5500/users/login", json=request_data)
@@ -42,7 +43,8 @@ def create_app():
                     cname = cname.replace(" ", "")
             print(cname)
             # embed(email, cid)
-            embed(email, cid, cname)
+            if embedding is True:
+                embed(email, cid, cname)
             user_log.append({"email": email, "cid": cid, "cname": cname, "user_type": user_type})
             print(user_log)
             return jsonify(message=f"The bot for course {cid}, {cname}, user {email} is up and running!"), 200
@@ -95,15 +97,15 @@ def embed(email, cid, cname):
     print("Start embedding!")
     print("Start getting posts...(might take some minutes)")
 
-    with open("test_w.json", "r") as file:
-        response_posts = json.load(file)
-    if True:
+    # with open("test_w.json", "r") as file:
+    #     response_posts = json.load(file)
+    # if True:
 
-    # response_posts = requests.get(f"http://lax.nonev.win:5500/users/{email}/courses/{cid}/posts/all")
-    #
-    # if response_posts.status_code == 401:
-    #     return jsonify(message='Getting all posts failed'), 401
-    # if response_posts.status_code == 200:
+    response_posts = requests.get(f"http://lax.nonev.win:5500/users/{email}/courses/{cid}/posts/all")
+
+    if response_posts.status_code == 401:
+        return jsonify(message='Getting all posts failed'), 401
+    if response_posts.status_code == 200:
         print("Successfully get all posts!")
         # response_posts = response_posts.json()
         print(f"------{len(response_posts)}")
