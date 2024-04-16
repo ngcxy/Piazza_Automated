@@ -43,7 +43,7 @@ def create_app():
             print(cname)
             # embed(email, cid)
             embed(email, cid, cname)
-            user_log.append({"email": email, "cid": cid, "user_type": user_type})
+            user_log.append({"email": email, "cid": cid, "cname": cname, "user_type": user_type})
             print(user_log)
             return jsonify(message=f"The bot for course {cid}, {cname}, user {email} is up and running!"), 200
 
@@ -95,19 +95,18 @@ def embed(email, cid, cname):
     print("Start embedding!")
     print("Start getting posts...(might take some minutes)")
 
-    response_posts = requests.get(f"http://lax.nonev.win:5500/users/{email}/courses/{cid}/posts/all")
-    # with open("test_w.json", "r") as file:
-    #     response_posts = json.load(file)
+    with open("test_w.json", "r") as file:
+        response_posts = json.load(file)
+    if True:
 
-    if response_posts.status_code == 401:
-        return jsonify(message='Getting all posts failed'), 401
-    if response_posts.status_code == 200:
+    # response_posts = requests.get(f"http://lax.nonev.win:5500/users/{email}/courses/{cid}/posts/all")
+    #
+    # if response_posts.status_code == 401:
+    #     return jsonify(message='Getting all posts failed'), 401
+    # if response_posts.status_code == 200:
         print("Successfully get all posts!")
-        response_posts = response_posts.json()
+        # response_posts = response_posts.json()
         print(f"------{len(response_posts)}")
-
-        # with open("test_w.json", "w") as file:
-        #     response_posts = json.load(file)
 
         preprocess = preprocess_qa_pairs(response_posts)
         request_body = {
@@ -123,12 +122,29 @@ def embed(email, cid, cname):
             print("Failed to embed...")
             print(response_embed.text)
 
+def embed_one(cname, question, answer):
+    combined_text = f'Questions: {question} Answer: {answer}'
+    text = BeautifulSoup(combined_text, 'html.parser').get_text().lower()
+    preprocessed_text = ' '.join(word_tokenize(text))
+    preprocessed_data = {"0": preprocessed_text}
+    request_body = {
+        "courseID": cname,
+        "fileID": "Piazza_API",
+        "content": preprocessed_data
+    }
+    response_embed = requests.post(f"http://lax.nonev.win:5000/upload-json", json=request_body)
+    if response_embed.status_code == 200:
+        print("Embed new posts successfully!")
+    else:
+        print("Failed to embed new post...")
+        print(response_embed.text)
 
 def bot():
-    # print("Bot working!")
+    print("Bot Running!")
     for user in user_log:
         email = user["email"]
         cid = user["cid"]
+        cname = user["cname"]
         user_type = user["user_type"]
         response_unread = requests.get(f"http://lax.nonev.win:5500/users/{email}/courses/{cid}/posts/unread")
         print(cid, response_unread.json())
@@ -136,18 +152,20 @@ def bot():
             if unread["type"] == "question":
                 question = unread["detail"]["subject"]+" "+unread["detail"]["content"]
                 pid = unread["id_c"]
-                print(pid, question)
-                response_answer = requests.post("http://lax.nonev.win:5000/ask", json={"question": question, "courseID": cid}).json()
-                answer = response_answer["answer"]
-                answer = f"TA bot:\n{answer}\n"
-                # answer = f"Coursistant answer:\n{answer1}"
-                request_data = {"content": answer, "revision": 0, "user_type": user_type}
-                response_post = requests.post(f"http://lax.nonev.win:5500/users/{email}/courses/{cid}/posts/{pid}",json=request_data)
-                print(response_post.status_code)
-                if response_post.status_code == 200:
-                    print("Answer posted!")
-                if response_post.status_code == 401:
-                    print("Invalid user or user type!")
+                # print(pid, question)
+                response_answer = requests.post("http://lax.nonev.win:5000/ask", json={"question": question, "courseID": cname}).json()
+                print(response_answer)
+                if response_answer["hasAnswer"] is True:
+                    answer = response_answer["answer"]
+                    answer = f"TA bot:\n{answer}\n"
+                    request_data = {"content": answer, "revision": 0, "user_type": user_type}
+                    response_post = requests.post(f"http://lax.nonev.win:5500/users/{email}/courses/{cid}/posts/{pid}", json=request_data)
+                    print(response_post.status_code)
+                    if response_post.status_code == 200:
+                        embed_one(cname, question, response_answer["answer"])
+                        print("Answer posted!")
+                    if response_post.status_code == 401:
+                        print("Invalid user or user type!")
     time.sleep(10)
 
 
