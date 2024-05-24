@@ -11,7 +11,7 @@ Request Body: {"email": "test@usc.edu", "password": "12345678"}
 This will return a list of courses and their IDs. Choose the course from the list.
 
 ### Step 3: (Notice that the port number is Different!)
-**GET** `http://lax.nonev.win:5505/start/<cid>`
+**POST** `http://lax.nonev.win:5505/start/<cid>`
 
 Request Body: {"email": "test@usc.edu", "password": "12345678", "user_type": "i"}
 
