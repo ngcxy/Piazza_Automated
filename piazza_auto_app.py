@@ -3,6 +3,7 @@ import threading
 from nltk.tokenize import word_tokenize
 from bs4 import BeautifulSoup
 import json
+import re
 
 
 from flask import Flask, request, jsonify
@@ -41,6 +42,7 @@ def create_app():
                 if item["id"] == cid:
                     cname = item["name"]
                     cname = cname.replace(" ", "")
+                    cname = re.sub(r'[^\w.-]', '', cname)
             print(cname)
             if embedding is True:
                 embed(email, cid, cname)
