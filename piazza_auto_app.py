@@ -24,7 +24,7 @@ def create_app():
         data = request.get_json()
         email = data.get('email')
         password = data.get('password')
-        embedding = data.get('embedding', True)
+        embedding = data.get('embedding', False)
         user_type = data.get('user_type')   # user_type: "s" or "i"
         request_data = {"email": email, "password": password}
         response_login = requests.post("http://lax.nonev.win:5500/users/login", json=request_data)
@@ -42,28 +42,43 @@ def create_app():
                     cname = item["name"]
                     cname = cname.replace(" ", "")
             print(cname)
-            # embed(email, cid)
             if embedding is True:
                 embed(email, cid, cname)
             user_log.append({"email": email, "cid": cid, "cname": cname, "user_type": user_type})
             print(user_log)
             return jsonify(message=f"The bot for course {cid}, {cname}, user {email} is up and running!"), 200
 
-    @app.route('/stop/<cid>')
+    @app.route('/stop/<cid>', methods=['POST'])
     def session_stop(cid):
         data = request.get_json()
         email = data.get('email')
-        for course in user_log:
-            if course["cid"] == cid and course["email"] == email:
+        for i in user_log:
+            if i["cid"] == cid and i["email"] == email:
                     request_data = {"email": email}
                     response_logout = requests.post("http://lax.nonev.win:5500/users/logout", json=request_data)
                     if response_logout.status_code == 401:
                         return jsonify(message='Invalid credentials'), 401
                     if response_logout.status_code == 200:
-                        user_log.remove(course)
+                        user_log.remove(i)
                         print(user_log)
                     return jsonify(message=f"The bot is terminated for course {cid}, user {email}!"), 200
         return jsonify(message='Invalid credentials'), 401
+
+    @app.route('/search', methods=['POST'])
+    def search_status():
+        data = request.get_json()
+        info_type = data.get('type')
+        info = data.get('name')
+        result = []
+        if info_type == "user":
+            for i in user_log:
+                if i["email"] == info:
+                    result.append({i["cid"]: i["cname"]})
+        if info_type == "course":
+            for i in user_log:
+                if i["cid"] == info:
+                    result.append(i["email"])
+        return jsonify(result), 200
 
     return app
 
