@@ -46,7 +46,9 @@ def create_app():
             print(cname)
             if embedding is True:
                 embed(email, cid, cname)
-            user_log.append({"email": email, "cid": cid, "cname": cname, "user_type": user_type})
+            session = {"email": email, "cid": cid, "cname": cname, "user_type": user_type}
+            if session not in user_log:
+                user_log.append(session)
             print(user_log)
             return jsonify(message=f"The bot for course {cid}, {cname}, user {email} is up and running!"), 200
 
@@ -81,6 +83,10 @@ def create_app():
                 if i["cid"] == info:
                     result.append(i["email"])
         return jsonify(result), 200
+
+    @app.route('/search/all')
+    def search_status_all():
+        return jsonify(user_log), 200
 
     return app
 
