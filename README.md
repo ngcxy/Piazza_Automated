@@ -18,7 +18,7 @@ This will return a list of courses and their IDs. Choose the course from the lis
 
 **POST** `http://lax.nonev.win:5505/start/<cid>`
 
-Request Body: {"email": "test@usc.edu", "password": "12345678", "embedding": True, "user_type": "i"}
+Request Body: {"email": "test@usc.edu", "password": "12345678", "embedding": true, "user_type": "i"}
 
 For "embedding", select _True_ for learning before starting, select _False_ for direct starting the bot. Default as False.
 
@@ -30,7 +30,7 @@ For "user_type", if you're an instructor, use "i", otherwise use "s".
 
 **POST** `http://lax.nonev.win:5505/search`
 
-Request Body: {"info_type": xxx, "info": xxx}
+Request Body: {"type": xxx, "name": xxx}
 
 Option 1: "info_type": "user", "info": "test@usc.edu" // return all courses(cid&name) running under this user
 
